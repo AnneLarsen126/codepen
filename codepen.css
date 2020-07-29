@@ -1,0 +1,60 @@
+#headline {
+    color: rgba(00,180,200,1);
+    font-size: 70px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+     text-decoration: none;
+     
+   }
+   #paragraph {width: 30%;
+   Background-color: rgba(100,100,000,.5);
+    
+   }
+   body {
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn3.dualshockers.com%2Fwp-content%2Fuploads%2F2019%2F07%2FCyberpunk-2077-bike.jpg&f=1&nofb=1);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+     background-attachment: fixed;
+   } 
+   .video {float: right;
+   }
+   
+   .column {
+     float: left;
+     width: 50%;
+     color: black;
+     Background-color: rgba(100,100,000,.5);
+   }
+   .row:after {
+     content: "";
+     display: table;
+     clear: both;
+   }
+   .column2 {
+     float: right;
+     width: 50%;}
+     
+   #contactinfo {
+     float: left;
+     color: black;
+     Background-color: rgba(100,100,000,.5);
+   }
+   footer {
+     text-align: center;
+     padding: 3px;
+     background-color: lightblue;
+     height: 300px;
+   }
+   
+   @media only screen and (max-width: 768px) {
+     /* For mobile phones: */
+     [class="video"] {
+       width: 100%;
+     }
+   }
+   @media only screen and (max-width: 768px) {
+     .paragrah {
+       width: 100%;
+     }
+   }
