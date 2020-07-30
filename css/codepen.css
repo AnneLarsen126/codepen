@@ -61,7 +61,8 @@
    }
  }
  @media only screen and (max-width: 768px) {
-   .paragrah {
+   #paragraph {
      width: 100%;
+     font-size: large;
    }
  }
